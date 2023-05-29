@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica De Sistemas: Parcial #3</title>
+    <!--Dependencia CSS de bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/logicaStyles/styles.css">
+    <link rel="stylesheet" href="css/Normalize.css">
+</head>
+<body>
+    <!--Navbar Component-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="logica.html">Lógica De Sistemas</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="DesarrolloHumano.html">Desarrollo Humano</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="metodologia.html">Metodología de la Investigación</a>                             
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contabilidad.html">Contabilidad I</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="introParcial2.html">Introducción a los Sistemas de Cómputo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--END CONTAINER-->
+        </nav><!--END NAVBAR-->
+        <!-- CARROUSEL -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div><!-- END INDICATORS -->
+            <div class="carousel-inner">
+                <!-- SLIDE #1-->
+                <div class="carousel-item active">
+                  <img src="logicaImg/logica1.jpg" class="d-block w-100" alt="Contabilidad">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark">Lógica</h5>
+                  </div>
+                </div>
+                <!-- SLIDE #2-->
+                <div class="carousel-item">
+                  <img src="logicaImg/logica2.jpg" class="d-block w-100" alt="Contabilidad">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lógica</h5>
+                  </div>
+                </div>
+                <!-- SLIDE #3-->
+                <div class="carousel-item">
+                  <img src="logicaImg/logica3.jpg" class="d-block w-100" alt="Contabilidad">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark">Lógica</h5>
+                  </div>
+                </div>
+              </div><!-- END CARROUSEL INNER -->
+              <!-- CONTROLADORES PREV & NEXT -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div><!-- END CARROUSEL -->
+
+    <!--CONTENT-->
+        <p class="top-spa"></p>
+        <div class="container">
+            <!--SECCIÓN 1-->
+            <section class="row">
+                <div class="col-12">
+                    <h1 class="display-1">Parcial #3</h1>
+                    <p class="justificar">
+                        Durante el periodo comprendido de abril a junio del año 2023, se estudiaron los temas contenidos del módulo 6, que contienen
+                        al tercer parcial. Esta tercera porción del semestre está dividida en varias semanas, en las que se impartieron conocimientos como 
+                        los estados de resultados, los estados financieros y la estructura que tienen ambos.        
+                    </p>
+                    <p class="justificar">
+                        Durante la duración del curso se realizan pruebas parciales, tres para ser exactos. Estos parciales se realizan cada dos meses y están 
+                        fundamentados en módulos, que son impartidos en dos o tres semanas cada uno. Es por ello que el portafolio correspondiente al curso está
+                        dividido por parciales.
+                    </p>
+                </div>
+            </section>
+            <p class="top-space"></p>
+
+            <section class="row">
+                <div class="col-12">
+                    <h2 class="centrar">Modulo 3</h2>
+                    <br>
+                    <h4>Algebra de boole, introducción a la teoria de circuitos</h4>
+                    <p class="justificar">
+                        Claude Shannon propuso que con esta algebra es posible modelar los llamados sistemas digitales y pudo formular
+                        su teoria de la codificación y John Von Neuman pudo anunciar el modelo de arquitectura que define la estructura interna de 
+                        los ordenadores desde la primera generación.
+                        <h5>Circuito electronico</h5>
+                        <p>Se denomina asi a la trayectoria cerrada que recorre
+                            una corriente electrica, se inicia en una de las terminales de una pila
+                            , pasa a traves de un conducto eletrico llega a un receptor que consume parte de la energia electrica
+                            <h5>Isomorfismo</h5>
+                            <p>Llamamos isomorfismo a la relacion de igualdad estructural que existe entre 2 objetos</p>
+                            <h6>3 funciones logicas: Conjunción, disyunción y negación</h6>
+                        </p>           
+
+                    </p>
+                    <br>
+                    <h4>Operadores del algebra de boole</h4>
+                    <p class="justificar">
+                        <ul>
+                            <li>Suma OR: X=A+B</li>
+                            <li>Producto AND: X=AB</li>
+                            <li>Complemento: A'-X'</li>
+                        </ul>                   
+                    </p>
+                    <div class="col-2">
+                        <table class="table table-dark table-striped">
+                            <tr>
+                                <th>Adición</th>
+                                <th>Multiplicación</th>
+                                <th>Complemento</th>
+                            </tr>
+                            <tr>
+                                <td>OR</td>
+                                <td>AND</td>
+                                <td>NOT</td>
+                            </tr>
+                            <tr>
+                                <td>0+0=0</td>
+                                <td>0.0=0</td>
+                                <td>0=1</td>
+                            </tr>
+                            <tr>
+                                <td>0+1=1</td>
+                                <td>0.1=0</td>
+                                <td>1=0</td>
+                            </tr>
+                            <tr>
+                                <td>1+0=1</td>
+                                <td>1.0=0</td>
+                            </tr>
+                            <tr>
+                                <td>1+1=1</td>
+                                <td>1.1=1</td>
+                            </tr>
+                        </table>
+                        </div>
+                    <br>
+                 <h6>Variables booleanas</h6>
+                 <p>Serán de tipo booleana si sus valores corresponden al conjunto B=0,1</p>
+                 <h6>Literal</h6>
+                 <p>Es una variable complementada.</p>
+                 <h6>Constante booleana</h6>
+                 <p>Es un valor perteneciente al conjunto B=0,1</p>
+                 <h6>Expresión booleana</h6>
+                 <p>Esta compuesta por variables, constantes y operadores</p>
+                 <h6>Expresión dual</h6>
+                 <p>Se obtiene intercambiando las operaciones AND por OR y viceversa e intercambiando las constantes 0 por 1 y 1 por 0.</p>
+                 <h6>Función booleana</h6>
+                 <p>Es una expresión o formula que mapea f a un valor del conjunto B=0,1</p>
+                 <h6>Compuerta logica</h6>
+                 <p>Son circuitos electronicos diseñados para obtener resultados booleanos, que se obtienen
+                    de operaciones logicas binarias
+                 </p>
+                 <h6>Compuertas universales</h6>
+                 <p>NAND Y NOR: Se dice que son compuertas universales porque cualquier sistema digital puede implementarse con ellas.</p>
+                 <img src="logicaImg/compuertas1.jpg"  id="compuertas1">
+                 <br>
+                 <br>
+                 <h5>Leyes y postulados</h5>
+                 <p>El resultado de aplicar cualquiera de las tres operaciones definidas a variables del sistema booleano, resulta en otra variable del sistema y ese resultado es unico.</p>
+                <h6>Propiedades de las compuertas lógicas</h6>
+                <ul>
+                    <li>Propiedad conmutativa</li>
+                    <li>Propiedad distributiva</li>
+                    <li>Propiedad asociativa</li>
+                    <li>Teorema de Dmorgan</li>
+                </ul>
+            </div>
+                <div class="col-12">
+                    <p class="top-space"></p>
+                    <h3>Funciones booleanas</h3>
+                    <p class="justificar">
+                        Función booleana de n variables f(x1,x2,x3...xn) es una expresión o formula que mapea f a un valor del conjunto booleano B=0,1.
+                        <h6>Las funciones booleanas de conmutación se pueden expresar:</h6>
+                        <ul>
+                            <li>De forma algebraica</li>
+                            <li>Mediante una tabla de verdad</li>
+                            <li>Diagrama lógico</li>
+                            <li>Forma canónica</li>
+                        </ul>
+                        <p>La manera más didactica de representar una función de conmutación es mediante unaa tabla de verdad, ya que en ella se muestran los valores de salida para cada
+                            combinación de valor de entrada.
+                        </p>
+                    </p>
+                    <h4>Funciones booleanas en minterminos y maxterminos</h4>
+                    <p class="justificar">
+                        Representaciones de las funciones booleanas a partir de una tabla de verdad.
+                        <p>Dada una tabla de verdad tambien es posible obtener la forma algebraica.</p>
+                        <p>Se puede obtener de la forma disyuntiva (suma de productos)</p>
+                        <p>O de la forma conjuntiva (producto de sumas).</p>
+                        <h6>Suma de productos</h6>
+                        <p>Es necesario identificar los 1s que resultan de la tabla de verdad y formar los terminos que lo representan.</p>
+                        <p>Para formar los minterminos se usa la variable sin complementar. </p>
+                    </p>
+                    <img src="logicaImg/suma1.jpg"  id="suma1">
+                    <br>
+                    <br>
+                    <h4>Simplificación algebraica</h4>
+                    <p class="justificar">
+                        Cuando una expresión de boole es pasada a compuertas, cada una de las
+                        literales en la expresión corresponde a una entrada para cada circuito,
+                        lo que se traduce en componentes. Debido a que el costo es generalmente
+                        un factor importante en la construcción de un circuito, es deseable
+                        que el circuito a construir tenga el menor numero de compuertas logicas.
+                        Para cumplir con este objetivo, se utilizan los teoremas del algebra booleana para simplificar expresiones booleanas.
+                    </p>
+                    <img src="logicaImg/algebraica1.png"  id="algebraica1">
+                    <br>
+                    <br>
+                    <h4>Problemas de aplicación</h4>
+                    <p class="justificar">
+                        Los problemas de aplicación son aquellos problemas matemáticos que te 
+                        presentan incógnitas que te llevan aplicar diferentes métodos para encontrar 
+                        la entidad matemática requeridas.
+                        <h6>En estos problemas hay necesidad de solucionarlos con lo anterior enseñado, es decir, primero comprender el problema y que es lo 
+                            que requiere. Luego hay que aplicar tablas de verdad según su ecuación, aplicar minterminos o maxterminos, establecer la forma estándar y canónica
+                            y por útlimo simplificar y hacer su circuito lógico.
+                        </h6>
+                        <h6>No se consiguió algún ejemplo de estos</h6>
+                    </p>
+                    <h4>Simplificación por mapas de karnaugh</h4>
+                    <p class="justificar">
+                        El metodo más facil de trabajar es el mapa de karnaugh, inventado por Maurice karnaugh de los laboratorios Bell en 1950.
+                        El mapa de karnaugh es un método tabular que reescribe la tabla de verdad para simplificar el circuito lógico. La simplificación es sencilla,
+                        basta observar el cambio de un bit en la variable en cuestión.
+                        <h6>Construcción de mapas de karnaugh</h6>
+                    </p>
+                    <div class="col-2">
+                        <h6>Mapa k - De 2 variables</h6>
+                        <table class="table table-dark table-striped">
+                            <tr>
+                                <th></th>
+                                <th>A</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>B</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>0</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                  
+                        </table>
+                        <h6>Mapa k - De 3 variables</h6>
+                        <table class="table table-dark table-striped">
+                            <tr>
+                                <th></th>
+                                <th>AB</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                             
+                            </tr>
+                            <tr>
+                                <td>C</td>
+                                <td>00</td>
+                                <td>01</td>
+                                <td>11</td>
+                                <td>10</td>
+                            
+                            </tr>
+                            <tr>
+                                <td>0</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                         
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                          
+                            </tr>
+                  
+                        </table>
+                        <h6>Mapa k - De 4 variables</h6>
+                        <table class="table table-dark table-striped">
+                            <tr>
+                                <th></th>
+                                <th>AB</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                             
+                            </tr>
+                            <tr>
+                                <td>CD</td>
+                                <td>00</td>
+                                <td>01</td>
+                                <td>11</td>
+                                <td>10</td>
+                            
+                            </tr>
+                            <tr>
+                                <td>00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                         
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                          
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                          
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                          
+                            </tr>
+                  
+                        </table>
+                        </div>
+                        <br>
+                        <br>
+                        <h4>Adyacencia de celdas en mapas - K</h4>
+                    <p class="justificar">
+                        Las celdas de un mapa de Karnaugh se disponen de manera que sólo cambia una única variable entre celdas adyacentes. La adyacencia 
+                        se define por un cambio de una única variable. Por ejemplo, en el mapa de tres variables, la celda 010 es adyacente a las celdas 000, 011 y 110.
+                        <h6>Dominio de la función</h6>
+                        <p>El mapa acoplará unicamente expresiones lógicas cuyo producto tenga todas las variables afectadas o cuya suma tenga todas las variables.</p>
+                    </p>
+                    <h6>Adyacencia de celdas en mapas de 2 variables y 3 variables</h6>
+                    <img src="logicaImg/adyacencia1.png"  id="adyacencia1">
+                    <br>
+                    <h5>Simplificando el mapa K</h5>
+                    <ul>
+                        <li>Determinar el dominio de la función</li>
+                        <li>Colocar los valores lógicos en cada casilla del mapa</li>
+                        <li>Verificar adyacencias, aagrupar los 1s en potencias de 2. EL menor número de grupos
+                            nos dara la menor simplificación. Debemos considerar la agrupación más grande.
+                        </li>
+                        <li>Observar el cambio de valor lógico de las variables de la agrupación,
+                            escribir las variables que no tienen cambio de bit, cada agrupación será un término
+                            en la función.
+                        </li>
+                    </ul>
+                    <img src="logicaImg/mapa1.png"  id="mapa1">
+                </div>
+                <p class="top-space"></p>
+                <div>
+                    <a href="./logicaParcial2.html" class="btn btn-dark" id="btPar2">Ir a Parcial #2</a>
+                    <a href="./logicaParcial1.html" class="btn btn-dark" id="btPar1">Ir a Parcial #1</a>
+                </div>
+            </section>
+        </div>    
+    <p class="top-space"></p>
+    <p class="top-space"></p>
+    <footer class="pieDePagina">Grupo #6, Ingeniería en Sistemas 5090-23, Sección A</footer>
+    <p class="top-space"></p>
+
+    <!--Dependencia JavaScript de bootstrap-->
+    <script src="js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>

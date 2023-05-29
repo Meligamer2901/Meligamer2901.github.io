@@ -1,0 +1,201 @@
+.top-space{
+    height: 40px;
+}
+
+mark{
+    background-color: #256;
+}
+
+.circle-img{
+    border-radius: 50%;
+}
+
+.justificar{
+    text-align: justify;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.contaCards{
+    width: 25rem;
+}
+
+.divConta{
+    width: 25rem;
+}
+
+.divEspacio{
+    margin-left: 40px;
+}
+
+#contador{
+    width: 350px;
+    margin-top: 50px;
+}
+
+#tGrafica{
+    margin-left: 150px;
+    width: 1000px;
+}
+
+#movimiento{
+    margin-left: 170px;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+#saldo1{
+    margin-left: 100px;
+    width: 500px;
+}
+
+#saldo2{
+    width: 540px;
+}
+
+#ePatrimonial{
+    width: 1100px;
+    margin-left: 70px;
+}
+
+#capital1{
+    width: 500px;
+    margin-left: 10px;
+}
+
+#capital2{
+    width: 500px;
+    margin-top: 15px;
+}
+
+#calculadora{
+    margin-top: 20px;
+}
+
+.pieDePagina{
+    margin-left: 35rem;
+}
+
+#conta13{
+    margin-left: 40px;
+}
+
+#ef{
+    width: 1200px;
+    margin-left: 50px;
+}
+
+#btPar2:hover{
+    background-color: gray;
+}
+
+#btPar1{
+    margin-left: 1050px;
+}
+
+#btPar1:hover{
+    background-color: gray;
+}
+
+#btPar22{
+    margin-left: 1050px;
+}
+
+#btPar22:hover{
+    background-color: gray;
+}
+#btPar3:hover{
+    background-color: gray;
+}
+.rounder{
+    text-align: right;
+}
+#simbolica1{
+    width: 375px;
+    border-radius: 25%;
+    position: absolute;
+    left: 950px;
+}
+.razonamiento1{
+    width: 350px;
+    position: absolute;
+    right: 250px;
+}
+.venn1{
+    width: 350px;
+}
+.conjunto1{
+    width: 350px;
+}
+.diagrama1{
+    width: 500px;
+    position: absolute;
+}
+.diagrama2{
+    width: 500px;
+    position: absolute;
+    right: 250px;
+       
+}
+.conjunto3{
+    width: 250px;
+}
+.conjunto2{
+    width: 200px;
+}
+.conjunto4{
+    width: 350px;
+}
+.operaciones1{
+    width: 750px;
+    position: relative;
+    left: 200px;
+}
+.table-container {
+    display: absolute;
+
+  }
+  .interferencia1{
+    width: 750px;
+    
+  }
+  .reducción1{
+    width: 500px;
+    position: relative;
+    left: 150px;
+    
+  }
+  .simplificar1{
+    width: 500px;
+    position: relative;
+    left: 150px;
+  }
+  #compuertas1{
+    width: 500px;
+    position: relative;
+    left: 150px;
+  }
+  #suma1{
+    width: 500px;
+    position: relative;
+    left: 150px;
+  }
+  #algebraica1{
+    width: 600px;
+    position: relative;
+    left: 150px;
+  }
+  #adyacencia1{
+    width: 250px;
+    position: relative;
+    left: 150px;
+  }
+  #mapa1{
+    width: 500px;
+    position: relative;
+    left: 150px;
+  }
+ 
+ 

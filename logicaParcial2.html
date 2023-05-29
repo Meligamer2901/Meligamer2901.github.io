@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica De Sistemas : Parcial #2</title>
+    <!--Dependencia CSS de bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/logicaStyles/styles.css">
+    <link rel="stylesheet" href="css/Normalize.css">
+</head>
+<body>
+    <!--Navbar Component-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="logica.html">Lógica De Sistemas</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="DesarrolloHumano.html">Desarrollo Humano</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="metodologia.html">Metodología de la Investigación</a>                             
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contabilidad.html">Contabilidad I</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Intro1.html">Introducción a los Sistemas de Cómputo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--END CONTAINER-->
+        </nav><!--END NAVBAR-->
+        <!-- CARROUSEL -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div><!-- END INDICATORS -->
+            <div class="carousel-inner">
+                <!-- SLIDE #1-->
+                <div class="carousel-item active">
+                  <img src="logicaImg/logica1.jpg" class="d-block w-100" alt="Contabilidad">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark">Lógica</h5>
+                  </div>
+                </div>
+                <!-- SLIDE #2-->
+                <div class="carousel-item">
+                  <img src="logicaImg/logica2.jpg" class="d-block w-100" alt="Contabilidad">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lógica</h5>
+                  </div>
+                </div>
+                <!-- SLIDE #3-->
+                <div class="carousel-item">
+                  <img src="logicaImg/logica3.jpg" class="d-block w-100" alt="Contabilidad">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark">Lógica</h5>
+                  </div>
+                </div>
+              </div><!-- END CARROUSEL INNER -->
+              <!-- CONTROLADORES PREV & NEXT -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div><!-- END CARROUSEL -->
+
+    <!--CONTENT-->
+        <p class="top-spa"></p>
+        <div class="container">
+            <!--SECCIÓN 1-->
+            <section class="row">
+                <div class="col-12">
+                    <h1 class="display-1">Parcial #2</h1>
+                    <p class="justificar">
+                        Durante la duración del curso se realizan pruebas parciales, tres para ser exactos. Estos parciales se realizan cada dos meses y están 
+                        fundamentados en módulos, que son impartidos en dos o tres semanas cada uno. Es por ello que el portafolio correspondiente al curso está
+                        dividido por parciales.
+                    </p>
+                </div>
+            </section>
+            <p class="top-space"></p>
+
+            <section class="row">
+                <div class="col-7">
+                    <h2 class="centrar">Módulo 2</h2>
+                    <br>
+                    <br>
+                    <h4>Lógica simbólica</h4>
+                    <p class="justificar">
+                        Estudio formal y simbólico de la lógica simbólica y su aplicación en las diferentes áreas de la matemática y la ciencia
+                        <h6>Padre de la lógica propocional: "Gottfried Leibniz"</h6>
+                    </p>
+                    <div class="contenedor">
+                        <img src="logicaImg/simbolica1.jpg"  id="simbolica1">
+                    <h4>Lógica proposicional</h4>
+                    <p class="justificar" id="texto1">
+                    Tambien llamada lógica de orden cero, es la rama de la lógica matemática que estudia proposiciones,
+                    afirmaciones u oraciones, los métodos de vincularlas mediante conectores lógicos y las relaciones y propiedades que se derivan de esos procedimientos    
+                    </p>
+                    </div>
+                    <br>
+                    <h6>Proposición</h6>
+                    <p class="justificar">
+                        Toda oración o enunciado al cual se le asigna un valor de verdar (V o F)
+                        <p>Por ejemplo: <h6>Guatemala es la capital de Guatemala - V</h6>
+                        <h6>Todos los números enteros son positivos - F</h6></p>
+                    </p>
+                    <br>
+                    <h4>Proposiciones simples (Átomicas)</h4>
+                    <p class="justificar">
+                        No están afectadas por negaciones "No" o términos de enlace como conjunciones "Y", disyunciones "O"
+                        o bien implicaciones "si...entonces"
+                        <h6>Variables</h6>
+                        <p>Enunciados simples, átomicos o elementales.
+                            <br>
+                            Se representan con las letras minusculas del final del abecedario "p, q, r, s"
+                            <table class="table table-dark table-striped">
+                                <tr>
+                                    <th>Ej.</th>
+                                    <th>Tipo</th>
+                                    <th>Simbolización</th>
+                                </tr>
+                                <tr>
+                                    <td>El cielo es azul</td>
+                                    <td>Simple</td>
+                                    <td>p</td>
+                                </tr>
+                                <tr>
+                                    <td>La capital de Rusia es Moscú</td>
+                                    <td>Simple</td>
+                                    <td>q</td>
+                                </tr>
+                                <tr>
+                                    <td>Esta lloviendo y hace calor</td>
+                                    <td>Compuesta</td>
+                                    <td>p y q</td>
+                                </tr>
+                                <tr>
+                                    <td>Mi cuñado es arquitecto e ingeniero</td>
+                                    <td>Compuesta</td>
+                                    <td>p y q</td>
+                                </tr>
+                                <tr>
+                                    <td>Las células son procariotas o eucariotas</td>
+                                    <td>Compuesta</td>
+                                    <td>p o q</td>
+                                </tr>
+                                <tr>
+                                    <td>Una ballena no es roja</td>
+                                    <td>Compuesta</td>
+                                    <td>No p</td>
+                                </tr>
+                            </table>
+                            
+                        </p>
+                    </p>
+                    <p class="top-space"></p>
+                    <h4>Tabla de operadores lógicos</h4>
+                    <p class="justificar">
+                        <table class="table table-dark table-striped">
+                            <tr>
+                                <th>Operadores lógicos.</th>
+                                <th>Simbolos básicos</th>
+                                <th>Conectivos lógicos</th>
+                            </tr>
+                            <tr>
+                                <td>Negación</td>
+                                <td>¬ NO</td>
+                                <td>~</td>
+                            </tr>
+                            <tr>
+                                <td>Conjunción</td>
+                                <td> /\ Y</td>
+                                <td>.</td>
+                            </tr>
+                            <tr>
+                                <td>Disyunción inclusiva</td>
+                                <td>\/ O</td>
+                                <td>+</td>
+                            </tr>
+                            <tr>
+                                <td>Disyunción exclusiva</td>
+                                <td>+ O...O</td>
+                                <td>+</td>
+                            </tr>
+                            <tr>
+                                <td>Condicional</td>
+                                <td>-> si...entonces</td>
+                                <td>ↄ</td>
+                            </tr>
+                            <tr>
+                                <td>Bicondicional</td>
+                                <td><-> Si y solo si</td>
+                                <td>= </td>
+                            </tr>
+                        </table>
+                    <p class="justificar">
+                        <h5>La negación</h5>
+                        No, nunca, jamás, tampoco, no es verdad que, no es cierto que, es falso que, le falta, carece de,
+                        sin, imposible. <h6>¬p </h6> 
+                        <br>
+                        <h5>La conjunción</h5>
+                        Y, e, pero, aunque, aun cuando, tanto.. como.., sino, ni..ni, sin embargo, además. <h6>p/\q</h6> <br>
+                        <h5>La disyunción</h5>
+                        O, u, ya..ya, bien..bien, ora..ora, sea..sea, o..o. <h6>p\/q</h6> <br>
+                        <h5>La condicional</h5>
+                        Si..entonces, debido a que, si, siempre que, con tal que, puesto que, ya que, porque, cuando,
+                        de, amenos que, a no ser que, salvo que, solo si, solamente si, dado que, ningun..es. <h6>p->q</h6><br>
+                        <h5>Bicondicional</h5>
+                        Si y solo si, cuando y solo cuando, si...entonces y solo entonces, es equivalente a. <h6>p<->q</h6>
+                    </p>
+                    </p>
+                </div>
+                <div class="col-12">
+                    <p class="top-space"></p>
+                    <h4>Formalización de argumentos</h4>
+                    <p class="justificar">
+                        Tambien se le llama forma condicional a la sucesión finita de cada premisa y la conclusión, 
+                        una forma argumentativa es válida si la conclusión se dervia de sus premisas.
+                        <ul>
+                            <li><h6>Una conclusión derivada de las premisas se llama consecuencia lógica.</h6></li>
+                            <li><h6>Asi, la forma argumentativa sera válida solo si, la conclusión es derivada de sus premisas.</h6></li>
+                        </ul>
+                    </p>
+                    <p class="top-space"></p>
+                    <h4>Proposiciones sin orden en las premisas</h4>
+                    <p class="justificar">
+                        Para identificar las premisas y la conclusión que no tengan un orden, conviene tener en cuenta estas sencillas indicaciones.
+                        <h5>Ejemplo</h5>
+                        Usted estudia otro software, "Siempre que" usted comprenda lógica algorítmica. Se cuestiona sus habilidades, "puesto que" le surgen
+                        dudas para proceder. Estudia otro software "o" se cuestiona sus habilidades. Por lo tanto, usted comprende lógica algoritmica "o" le surgen
+                        dudas para proceder.  
+                        <h6>Formalizar</h6>
+                        <p>Pm1: Usted estudia otro software siempre que usted comprenda logica algoritmica.</p>
+                        <p>Pm2: Se cuestiona sus habilidades puesto que le surgen dudas para proceder.</p>
+                        <p>Pm3: Estudia otro software o se cuestiona sus habilidades.</p>
+                        <p>C: Usted comprende logica algoritmica o le surgen dudas para proceder</p>
+                        <h6>Simbolizar</h6>
+                        <p>p: Usted estudia otro software</p>
+                        <p>q: Usted comprende logica algoritmica</p>
+                        <p>r: Se cuestiona sus habilidades</p>
+                        <p>s: Le surgen dudas para proceder</p>
+                        <h6>Formalizar</h6>
+                        <p>Pm1: p->q</p>
+                        <p>Pm2: r->s</p>
+                        <p>Pm3: p\/r</p>
+                        <p>C: q\/s</p>
+                        <h6>Forma condicional</h6>
+                        <h6><p>[(p->q)(r->s)(p\/r)]->(q\/s)</p></h6>
+                    </p>
+                   
+                    <p class="top-space"></p>
+                    <h4>Válidez con tablas de verdad</h4>
+                    <p class="justificar">
+                        Tabla que muestra el valor de verdad de una proposición
+                        compuesta, para cada combinación de verdad que se pueda asignar.
+                    </p>
+                    <h5>Tautología</h5>
+                    <p class="justificar">
+                        Cuando el análisis de la proposición es verdadero en su totalidad
+                        <h5>Contradicción</h5>
+                        Si el análisis de la proposición es falso en su totalidad
+                        <br>
+                         <br>    
+                        <h5>Contingencia</h5>
+                        Cuando el análisis no es ni verdadero ni falso en su totalidad
+                    </p>
+                </div>
+                <p class="col-12"><h4>Tablas de verdad por cada operador lógico</h4></p>
+            <div class="col-12">
+                <div class="table-container">
+                <h5>Conjunción</h5>
+                <table class="table table-dark table-striped" id="table1">
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>p/\q</th>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                    </tr>
+                </table>
+                
+                <h5>Disyunción inclusiva</h5>
+                <table class="table table-dark table-striped"id="table1">
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>p\/q</th>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                    </tr>
+                </table>
+                <h5>Disyunción exclusiva</h5>
+                <table class="table table-dark table-striped"id="table1">
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>p+q</th>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                    </tr>
+                </table>
+                <h5>Negación</h5>
+                <table class="table table-dark table-striped"id="table1">
+                    <tr>
+                        <th>p</th>
+                        <th>¬p</th>
+                        
+                      
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>F</td>
+               
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>V</td>
+                       
+                    </tr>
+                </table>
+                <h5>Condicional</h5>
+                <table class="table table-dark table-striped"id="table1">
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>p->q</th>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+                </table>
+                <h5>Bicondicional</h5>
+                <table class="table table-dark table-striped"id="table1">
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>p<->q</th>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+            <div class="col-12">
+                    <br>
+                    <br>
+                    <h4>Demostración por método de reducción al absurdo</h4>
+                    <p class="justificar">
+                        Consiste en suponer que el resultado a demostrar es falso y llegar aa partir de ahí, a una contradicción.
+                        <br>
+                        Es uno de los métodos lógicos de demostración más usado en matemática para demostrar la válidez o inválidez
+                        de proposiciones categóricas.
+                    </p>
+                    <h5>Invalidez lógica, reducción al absurdo</h5>
+                    La válidez de un razonamiento, implica que todas sus premisas sean derivadas hasta llegar a la conclusión, si un razonamiento posee premisas verdaderas
+                    y conclusión falsa, entonces es un argumento invalido.
+                    <div class="col-2">
+                    <h5>Invalido</h5>
+                    <table class="table table-dark table-striped">
+                        <tr>
+                            <td>Pm1</td>
+                            <td>V</td>
+                        </tr>
+                        <tr>
+                            <td>Pm2</td>
+                            <td>V</td>
+                        </tr>
+                        <tr>
+                            <td>Pm3</td>
+                            <td>V</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>F</td>
+                        </tr>
+                    </table>
+                        <h5>Valido</h5>
+                        <table class="table table-dark table-striped">
+                            <tr>
+                                <td>Pm1</td>
+                                <td>V</td>
+                            </tr>
+                            <tr>
+                                <td>Pm2</td>
+                                <td>F</td>
+                            </tr>
+                            <tr>
+                                <td>Pm3</td>
+                                <td>V</td>
+                            </tr>
+                            <tr>
+                                <td>C</td>
+                                <td>F</td>
+                            </tr>
+                        </table>
+                        </div>
+                </div>
+                <div class="col-12">
+                    <br>
+                    <br>
+                    <h4>Deducción natural</h4>
+                    <p class="justificar">
+                       Este modo mejorará el cálculo de válidez lógico aplicando reglas de interferencia, reglas que son útiles para argumentos
+                       con más de 2 premisas, se complementa el estudio con las reglas de reemplazo.
+                        <br>
+                        El método de deducción natural es simple, versátil y efectivo, este permitirá analizar rapidamente la válidez de muchas premisas
+                        <br>
+                        <br>
+                        <img src="logicaImg/Interferencia1.png"  class="interferencia1">
+                    </p>
+                    <h5><p>La deducción natural puede ser directa o indirecta</p></h5>
+                    <p>
+                        Directa: La conclusión se obtiene desde las premisas por la aplicación de las reglas de
+                        inferencia en forma sucesiva.
+                        <p>indirecta o reducción al absurdo: Se realiza cuando no logramos un resultado adecuado
+                        con la deducción directa. El procedimiento es el siguiente:</p>
+                        <ul>
+                            <li>Se inicia suponiendo la falsedad de la conclusión.</li>
+                               <li> Se aplican reglas de inferencia y reemplazo.</li>
+                                <li> Si de este supuesto se llega a una conclusión se rechaza.</li>
+                               <li>  Se afirma, si llega a la conclusión deseada.</li>
+                        </ul>
+
+
+                    </p>
+                    
+              </div>
+              <div class="col-12">
+                <br>
+                <br>
+                <h4>Deducción natural, reducción al absurdo</h4>
+                <p class="justificar">
+                   Si a partir de supuesto p se construye una contradicción se cancela la relación entre ambas proposiciones por lo tanto p es falso
+                    <br>
+                    
+                    <br>
+                    <br>
+                    <img src="logicaImg/reducción1.png"  class="reducción1">
+                </p>
+          </div>
+          <div class="col-12">
+            <br>
+            <br>
+            <h4>Simplificación de estructuras proposicionales</h4>
+            <p class="justificar">
+               Consiste en escribirla de la forma más sencilla posible.
+                <br>
+                Para simplificar debemos utilizar reglas de reemplazo.
+                <br>
+                Para comprobar si hay equivalencia, las tablas de verdad deben ser iguales.
+                <br>
+               <h6>Recomendación</h6>
+               <ul>
+                <li>Eliminar condicionales</li>
+                <li>Eliminar negaciones</li>
+                <li>Simplificar hasta tener conjunciones y disyunciones y aplicar el resto de leyes</li>
+               </ul>
+               <img src="logicaImg/simplificacion1.png"  class="simplificar1">
+            </p>
+            </section>
+            <p class="top-space"></p>
+                <div>
+                    <a href="./logicaParcial1.html" class="btn btn-dark" id="btPar2">Ir a Parcial #1</a>
+                    <a href="./logicaParcial3.html" class="btn btn-dark" id="btPar1">Ir a Parcial #3</a>
+                </div>
+        </div>    
+        <p class="top-space"></p>
+    <p class="top-space"></p>
+    <footer class="pieDePagina">Grupo #6, Ingeniería en Sistemas 5090-23, Sección A</footer>
+    <p class="top-space"></p>
+    
+    <!--Dependencia JavaScript de bootstrap-->
+    <script src="js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>

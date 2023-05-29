@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad 1 : Parcial #2</title>
+    <!--Dependencia CSS de bootstrap-->
+    <link rel="stylesheet" href="css/contaStyles/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contaStyles/styles.css">
+</head>
+<body>
+    <!--Navbar Component-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="contabilidad.html">Contabilidad I</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="DesarrolloHumano.html">Desarrollo Humano</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="metodologia.html">Metodología de la Investigación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Intro1.html">Introducción a los Sistemas de Cómputo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logica.html">Lógica de Sistemas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--END CONTAINER-->
+        </nav><!--END NAVBAR-->
+        <!-- CARROUSEL -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div><!-- END INDICATORS -->
+            <div class="carousel-inner">
+                <!-- SLIDE #1-->
+                <div class="carousel-item active">
+                <img src="contaImg/1.webp" class="d-block w-100" alt="Contabilidad">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark">Contabilidad</h5>
+                </div>
+                </div>
+                <!-- SLIDE #2-->
+                <div class="carousel-item">
+                <img src="contaImg/2.jpg" class="d-block w-100" alt="Contabilidad">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Contabilidad</h5>
+                </div>
+                </div>
+                <!-- SLIDE #3-->
+                <div class="carousel-item">
+                <img src="contaImg/1.jpg" class="d-block w-100" alt="Contabilidad">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark">Contabilidad</h5>
+                </div>
+                </div>
+            </div><!-- END CARROUSEL INNER -->
+            <!-- CONTROLADORES PREV & NEXT -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div><!-- END CARROUSEL -->
+
+    <!--CONTENT-->
+        <p class="top-spa"></p>
+        <div class="container">
+            <!--SECCIÓN 1-->
+            <section class="row">
+                <div class="col-12">
+                    <h1 class="display-1">Parcial #2</h1>
+                    <p class="justificar">
+                        Durante el periodo comprendido de marzo a abril del año 2023, se estudiaron los temas contenidos en los módulos 4 y 5, que contienen
+                        al segundo parcial. Esta segunda porción del semestre está dividida en varias semanas, en las que se impartieron conocimientos como 
+                        la cuenta contable, los cargos, los abonos, los movimientos, las partidas de diario y los traslados al Mayor.        
+                    </p>
+                    <p class="justificar">
+                        Durante la duración del curso se realizan pruebas parciales, tres para ser exactos. Estos parciales se realizan cada dos meses y están 
+                        fundamentados en módulos, que son impartidos en dos o tres semanas cada uno. Es por ello que el portafolio correspondiente al curso está
+                        dividido por parciales.
+                    </p>
+                </div>
+            </section>
+            <p class="top-space"></p>
+
+            <section class="row">
+                <div class="col-12">
+                    <h2 class="centrar">Módulo 4</h2>
+                    <br>
+                    <h3>Semana 7</h3>
+                    <br>
+                    <h4>Cuenta contable</h4>
+                    <p class="justificar">
+                        Agrupación secuencial y numérica de los bienes, derechos y obligaciones 
+                        que poseen los negocios o empresas. La cuenta contable representa 
+                        a los elementos patrimoniales agrupados por clases, expresando los 
+                        aumentos y disminuciones de valor que experimentan en un período 
+                        determinado. Gráficamente se representa en forma de “T”, como un 
+                        estado dividido en dos partes denominadas debe y haber con un título 
+                        adecuado a la especie o clase de valores cuya situación y movimiento 
+                        se registra y expresa. Sirve en general para representar cualquier 
+                        cuenta.
+                    </p>
+                    <img src="contaImg/tGrafica.png" alt="T Gráfica" id="tGrafica">
+                    <br>
+                    <h4>Cargos</h4>
+                    <p class="justificar">
+                        Cuando se anota una cantidad en el DEBE, se dice que se está anotando
+                        un cargo o débito. Significa registrar en el DEBE, es decir en la 
+                        parte izquierda de la cuenta.
+                    </p>
+                    <br>
+                    <h4>Abonos</h4>
+                    <p class="justificar">
+                        Cuando se anota una cantidad en el HABER, se dice que estamos 
+                        haciendo un abono o crédito. Significa registrar en el Haber, 
+                        es decir en la parte derecha de la cuenta.
+                    </p>
+                    <br>
+                    <h4>Movimiento</h4>
+                    <p class="justificar">
+                        Es la suma de los cargos y la suma de los abonos. Dependiendo de 
+                        su naturaleza pueden ser: movimientos deudores y movimientos 
+                        acreedores.
+                        <br>
+                        <br>
+                        Movimiento deudor: Es la suma de los cargos de una cuenta (debe).
+                        <br>
+                        Movimiento acreedor: Se llama así a la suma de los abonos de una cuenta (haber).
+                    </p>
+                    <img src="contaImg/movimiento.png" alt="Movimiento de cuentas" id="movimiento">
+                    <h4>Saldos</h4>
+                    <p class="justificar">
+                        Se llama saldo a la diferencia entre movimiento deudor y acreedor. 
+                        En virtud de que existen dos clases de movimientos, y que la diferencia 
+                        puede ser mayor en uno y otro caso; puede también haber dos clases 
+                        de saldos: saldo deudor y saldo acreedor.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <img src="contaImg/saldo1.png" alt="Saldo deudor" id="saldo1">
+                </div>
+                <div class="col-6">
+                    <img src="contaImg/saldo2.png" alt="Saldo acreedor" id="saldo2">
+                </div>
+                <div class="col-12">
+                    <p class="top-space"></p>
+                    <h4>Partida doble</h4>
+                    <p class="justificar">
+                        El sistema de partida doble es el método o sistema de registro 
+                        de las operaciones, usado en la contabilidad, se puede decir 
+                        que es la base de la contabilidad. La partida doble se sustenta 
+                        por medio del sistema de cargo y abono.
+                    </p>
+                    <p class="top-space"></p>
+                    <h3>Semana 8</h3>
+                    <br>
+                    <h4>Ecuación patrimonial</h4>
+                    <p class="justificar">
+                        Representa la relación entre ACTIVOS, PASIVOS Y CAPITAL CONTABLE. 
+                        De un lado están los activos totales y del otro las fuentes de 
+                        financiamiento y los derechos legales y económicos sobre los activos 
+                        (pasivo y capital contable).
+                    </p>
+                    <img src="contaImg/ePatrimonial.png" alt="Ecuación patrimonial" id="ePatrimonial">
+                    <p class="top-space"></p>
+                    <h4>Clasificación de cuentas</h4>
+                    <p class="justificar">
+                        Cuando la empresa alcanza cierto grado de desarrollo, es 
+                        indispensable que el listado de cuentas del catálogo se 
+                        clasifique de acuerdo con la naturaleza o tipo de movimiento 
+                        que se le dará. Dentro de la clasificación de cuentas se 
+                        tienen las cuentas de balance y las cuentas de resultados.
+                    </p>
+                    <h4>Capital contable</h4>
+                    <p class="justificar">
+                        El capital contable agrupa elementos que se muestran en la ecuación 
+                        y son: el capital social que representa la aportación de los 
+                        accionistas y las utilidades retenidas, que representan las 
+                        utilidades generadas por el negocio y reinvertidas en éste. Las 
+                        utilidades retenidas están integradas por las utilidades de períodos 
+                        anteriores no repartidas y las utilidades del período actual, 
+                        disminuidas por los dividendos (utilidades repartidas a los 
+                        accionistas).
+                    </p>
+                </div>
+                <div class="col-6">
+                    <img src="contaImg/capital1.png" alt="Capital" id="capital1">
+                </div>
+                <div class="col-6">
+                    <img src="contaImg/capital2.png" alt="Capital" id="capital2">
+                </div>
+                <div class="col-12">
+                    <p class="top-space"></p>
+                    <h2>Módulo 5</h2>
+                    <br>
+                    <h3>Semana 9</h3>
+                    <br>
+                    <h4 id="catalogo">Catálogo de cuentas de Balance</h4>
+                    <h5>Activo</h5>
+                    <table class="table table-dark table-striped">
+                        <tr>
+                            <th>Cuenta</th>
+                            <th>Descripción</th>
+                            <th>Grupo</th>
+                            <th>Representa</th>
+                        </tr>
+                        <tr>
+                            <td>Caja</td>
+                            <td>Registra el dinero en efectivo y depositado en bancos</td>
+                            <td>Activos</td>
+                            <td>Bienes y derechos</td>
+                        </tr>
+                        <tr>
+                            <td>Cuentas por Cobrar</td>
+                            <td>Deudas a favor con clientes</td>
+                            <td>Activo</td>
+                            <td>Bienes y derechos</td>
+                        </tr>
+                        <tr>
+                            <td>Deudores</td>
+                            <td>Préstamos a empleados y personas diversas</td>
+                            <td>Activo</td>
+                            <td>Bienes y derechos</td>
+                        </tr>
+                        <tr>
+                            <td>Edificios</td>
+                            <td>Edificaciones permanentes</td>
+                            <td>Activo</td>
+                            <td>Bienes</td>
+                        </tr>
+                        <tr>
+                            <td>Vehículos</td>
+                            <td>Equipos de transporte</td>
+                            <td>Activo</td>
+                            <td>Bienes</td>
+                        </tr>
+                        <tr>
+                            <td>Gastos de constitución</td>
+                            <td>Gastos que se realizan para constituir la empresa</td>
+                            <td>Activo</td>
+                            <td>Pagos anticipados - Derechos</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <h5>Pasivo</h5>
+                    <table class="table table-dark table-striped">
+                        <tr>
+                            <th>Cuenta</th>
+                            <th>Descripción</th>
+                            <th>Grupo</th>
+                            <th>Representa</th>
+                        </tr>
+                        <tr>
+                            <td>Proveedores</td>
+                            <td>Pagos pendientes por concepto de compras al crédito</td>
+                            <td>Pasivo</td>
+                            <td>Obligación</td>		
+                        </tr>
+                        <tr>
+                            <td>Acreedores</td>
+                            <td>Cuentas por pagar con diversas entidades no bancarias o personas</td>
+                            <td>Pasivo</td>
+                            <td>Obligación</td>
+                        </tr>
+                        <tr>
+                            <td>Préstamos bancarios</td>
+                            <td>Préstamos con los bancos del sistema</td>
+                            <td>Pasivo</td>
+                            <td>Obligación</td>
+                        </tr>
+                        <tr>
+                            <td>Hipotecas (Acreedores hipotecarios)</td>
+                            <td>Préstamos en los que dejamos una garantía inmobiliaria</td>
+                            <td>Pasivo</td>
+                            <td>Obligación</td>
+                        </tr>
+                        <tr>
+                            <td>Servicios cobrados por anticipado</td>
+                            <td>Anticipos que recibimos por servicios no prestados</td>
+                            <td>Pasivo</td>
+                            <td>Obligación de prestar el servicio</td>
+                        </tr>
+                        <tr>
+                            <td>Depreciación acumulada</td>
+                            <td>Reserva técnica que se guarda para registrar la depreciación</td>
+                            <td>Reguladora del activo</td>
+                            <td>Reservas</td>
+                        </tr>
+                        <tr>
+                            <td>Capital</td>
+                            <td>Inversión del propietario o propietarios</td>
+                            <td>Capital</td>
+                            <td>Diferencia entre activo y pasivo</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <h4>Catálogo de cuentas de Resultados</h4>
+                    <h5>Ingresos</h5>
+                    <table class="table table-dark table-striped">
+                        <tr>
+                            <th>Cuenta</th>
+                            <th>Descripción</th>
+                            <th>Grupo</th>
+                            <th>Representa</th>
+                        </tr>
+                        <tr>
+                            <td>Ventas</td>
+                            <td>Ingresos registrados por venta de mercaderías o servicios</td>
+                            <td>Ganancia (Ingreso)</td>
+                            <td>Ingresos por ventas realizadas</td>		
+                        </tr>
+                        <tr>
+                            <td>Otros ingresos</td>
+                            <td>Ingresos registrados que no son del objeto principal de la empresa</td>
+                            <td>Ganancia (Ingreso)</td>
+                            <td>Alquileres u otros similares</td>
+                        </tr>
+                        <tr>
+                            <td>Intereses ganados</td>
+                            <td>Intereses ya sea por inversiones en bancos o intereses cobrados a clientes por atrasos</td>
+                            <td>Ganancia (Ingreso)</td>
+                            <td>Ingresos por inversiones o por mora a clientes</td>
+                        </tr>
+                        <tr>
+                            <td>Descuentos percibidos</td>
+                            <td>Descuentos que recibimos por pronto pago</td>
+                            <td>Ganancia (Reducción de costo)</td>
+                            <td>Descuentos por haber pagado antes de lo convenido</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <h5>Gastos</h5>
+                    <table class="table table-dark table-striped">
+                        <tr>
+                            <th>Cuenta</th>
+                            <th>Descripción</th>
+                            <th>Grupo</th>
+                            <th>Representa</th>
+                        </tr>
+                        <tr>
+                            <td>Alquileres pagados</td>
+                            <td>Pagos por alquileres ya vencidos</td>
+                            <td>Gasto (Pérdida)</td>
+                            <td>Alquiler vencido que ya se disfrutó</td>		
+                        </tr>
+                        <tr>
+                            <td>Sueldos de personal</td>
+                            <td>Sueldos pagados al personal que labora en la empresa</td>
+                            <td>Gasto (Pérdida)</td>
+                            <td>Pago de nómina</td>
+                        </tr>
+                        <tr>
+                            <td>Prestaciones laborales</td>
+                            <td>Aguinaldo, Bono 14, Vacaciones, Indemnización</td>
+                            <td>Gasto (Pérdida)</td>
+                            <td>Cálculo mensual que se provisiona para el pago oportuno</td>
+                        </tr>
+                        <tr>
+                            <td>Descuentos otorgados</td>
+                            <td>Descuentos que otorgamos por pronto pago</td>
+                            <td>Gasto (Pérdida)</td>
+                            <td>Descuentos por haber cobrado antes de lo convenido</td>
+                        </tr>
+                        <tr>
+                            <td>Depreciaciones</td>
+                            <td>Cargo de pérdida de valor de los activos</td>
+                            <td>Gasto (Pérdida)</td>
+                            <td>Depreciación fiscal</td>
+                        </tr>
+                        <tr>
+                            <td>Gastos generales</td>
+                            <td>Pagos por luz eléctrica, agua, teléfono</td>
+                            <td>Gasto (Pérdida)</td>
+                            <td>Pagos efectuados que no se recuperarán</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <h4>Procedimiento de contabilización</h4>
+                    <ol>
+                        <li>Se procede a realizar la partida de apertura</li>
+                        <li>Se cargan en la partida las aportaciones de los propietarios 
+                            y se abona el capital. Si alguno de los bienes está comprometido 
+                            o pignorado.
+                        </li>
+                    </ol>
+                </div>
+                
+                <h4>Operaciones y registros contables</h4>
+                <div class="col-4">
+                    <br>
+                    <h5>Compras</h5>
+                    <ul>
+                        <li>Devoluciones y rebajas sobre compras</li>
+                        <li>Descuentos sobre compras</li>
+                        <li>Pagos contado/crédito</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <h5>Pago de planillas</h5>
+                    <ul>
+                        <li>Prestaciones laborales</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <h5>Ventas</h5>
+                    <ul>
+                        <li>Devoluciones y rebajas sobre ventas</li>
+                        <li>Descuento sobre ventas</li>
+                        <li>Cobros anticipados</li>
+                        <li>Cuentas incobrables</li>
+                    </ul>
+                    <br>
+                    <h5>Gastos de operación</h5>
+                    <ul>
+                        <li>Gastos de ventas</li>
+                        <li>Gastos de administración</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <h5>Propiedad, planta y equipo</h5>
+                    <ul>
+                        <li>Depreciaciones</li>
+                        <li>Compras y ventas</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="col-12">
+                <img src="contaImg/conta11.jpg" alt="Contabilidad" class="rounded" id="calculadora">
+            </div>
+            <p class="top-space"></p>
+                <div>
+                    <a href="./contaParcial1.html" class="btn btn-dark" id="btPar2">Ir a Parcial #1</a>
+                    <a href="./contaParcial3.html" class="btn btn-dark" id="btPar1">Ir a Parcial #3</a>
+                </div>
+        </div>    
+        <p class="top-space"></p>
+    <p class="top-space"></p>
+    <footer class="pieDePagina">Grupo #6, Ingeniería en Sistemas 5090-23, Sección A</footer>
+    <p class="top-space"></p>
+    
+    <!--Dependencia JavaScript de bootstrap-->
+    <script src="js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>

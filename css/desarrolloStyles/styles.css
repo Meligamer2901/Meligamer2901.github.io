@@ -1,0 +1,88 @@
+.top-space{
+    height: 40px;
+}
+
+mark{
+    background-color: #256;
+}
+
+.circle-img{
+    border-radius: 50%;
+}
+
+.justificar{
+    text-align: justify;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.desahumaCards{
+    width: 25rem;
+}
+
+.divdesa{
+    width: 25rem;
+}
+
+.divEspacio{
+    margin-left: 40px;
+}
+
+#contador{
+    width: 600px;
+    margin-top: 100px;
+}
+
+.table{
+    margin-left: 150px;
+    width: 1000px;
+}
+
+
+
+
+
+
+#movimiento{
+    margin-left: 170px;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+
+
+.pieDePagina{
+    margin-left: 35rem;
+}
+
+
+
+#ef{
+    width: 1200px;
+    margin-left: 50px;
+}
+
+#btPar2:hover{
+    background-color: gray;
+}
+
+#btPar1{
+    margin-left: 1050px;
+}
+
+#btPar1:hover{
+    background-color: gray;
+}
+
+#btPar22{
+    margin-left: 1050px;
+}
+
+#btPar22:hover{
+    background-color: gray;
+}
+#btPar3:hover{
+    background-color: gray;
+}
